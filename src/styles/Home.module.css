@@ -54,3 +54,14 @@
 /* .home_para {
     line-height: 1.5;
 } */
+
+@media screen and (max-width: 28.125rem) {
+  .home_image {
+    height: 4.7rem;
+    width: 5.25rem;
+  }
+
+  .home_image_stat_container {
+    align-items: center;
+  }
+}
