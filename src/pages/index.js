@@ -8,7 +8,7 @@ export default function Home() {
     <>
       <Head>
         <title>vibgreon</title>
-        <meta name="description" content="Personal Portfolio" />
+        <meta name="description" content="personal portfolio" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" type="image/x-icon" href="/favicon.ico?" />
       </Head>
