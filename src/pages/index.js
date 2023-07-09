@@ -1,14 +1,7 @@
 import Head from "next/head";
 import Navbar from "@/Components/Navbar";
 import Wrapper from "@/Components/Wrapper";
-
-import { Montserrat } from "next/font/google";
 import styles from "@/styles/Home.module.css";
-
-const mon = Montserrat({
-  subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-});
 
 export default function Home() {
   return (
@@ -19,7 +12,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" type="image/x-icon" href="/favicon.ico?" />
       </Head>
-      <main className={`${styles.main} ${mon.className}`}>
+      <main className={`${styles.main}`}>
         <Wrapper>
           <Navbar />
           <div className={styles.home_content_container}>
