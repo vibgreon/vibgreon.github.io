@@ -5,9 +5,10 @@ export default function Wrapper({ children }) {
     <>
       <Head>
         <title>vibgreon</title>
-        <meta name="description" content="personal portfolio" />
+        <meta name="description" content="Developer, writer, and creator." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" type="image/x-icon" href="/favicon.ico?" />
+        <meta property="og:image" content="/bg.jpg" />
       </Head>
       <div className="wrapper">
         <style jsx>
