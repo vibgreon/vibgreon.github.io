@@ -17,7 +17,7 @@ export default function Home() {
         <title>vibgreon</title>
         <meta name="description" content="Personal Portfolio" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="/favicon.ico?" />
       </Head>
       <main className={`${styles.main} ${mon.className}`}>
         <Wrapper>
