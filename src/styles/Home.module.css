@@ -1,0 +1,56 @@
+.home_content_container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.home_subcontent_container {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.home_title {
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+
+.home_bold {
+  font-weight: 500;
+}
+
+.home_image_stat_container {
+  display: flex;
+  flex-direction: row;
+  gap: 1.75rem;
+}
+
+.home_image {
+  height: 5.25rem;
+  width: 5.25rem;
+  background-color: rgb(38, 38, 38);
+  border-radius: 100px;
+  background-image: url(/profile_pic.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 10% 25%;
+  background-blend-mode: luminosity;
+}
+
+.home_stat_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#home_stat_item {
+  color: rgb(95, 95, 95);
+  font-weight: 500;
+}
+
+/* applied global css for this */
+/* .home_para {
+    line-height: 1.5;
+} */
