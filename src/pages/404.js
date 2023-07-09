@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Wrapper from "@/Components/Wrapper";
 import Navbar from "@/Components/Navbar";
 
