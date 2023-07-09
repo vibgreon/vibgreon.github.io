@@ -4,12 +4,6 @@ import Navbar from "@/Components/Navbar";
 export default function Page404() {
   return (
     <>
-      <Head>
-        <title>vibgreon</title>
-        <meta name="error" content="page not found" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" type="image/x-icon" href="/favicon.ico?" />
-      </Head>
       <Wrapper>
         <Navbar />
         <div>
