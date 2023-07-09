@@ -1,0 +1,48 @@
+.nav_container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.nav_container svg {
+  padding: 0.275rem;
+}
+
+.nav_link_container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#nav_link_item {
+  padding: 5px 10px;
+  background-color: transparent;
+  border-radius: 5px;
+  width: max-content;
+}
+
+#nav_link_item:hover {
+  animation: hover_nav_animation 1s ease;
+  animation-fill-mode: forwards;
+}
+
+@keyframes hover_nav_animation {
+  0% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: rgb(38, 38, 38);
+  }
+}
+
+@media screen and (max-width: 50rem) {
+  .nav_container {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .nav_link_container {
+    flex-direction: row;
+    align-items: center;
+  }
+}
