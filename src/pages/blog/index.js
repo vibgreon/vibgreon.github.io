@@ -9,7 +9,7 @@ export default function Blog() {
         <Navbar />
         <div className={styles.blog_content_container}>
           <div className={styles.blog_head_title}>stories / creations</div>
-          <div>Will update soon. Stay tuned!</div>
+          <div>Coming soon! Keep an eye out for updates!</div>
         </div>
       </Wrapper>
     </>

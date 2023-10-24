@@ -11,13 +11,10 @@ export default function About() {
           <div className={styles.about_head_title}>what / why</div>
           <div className={styles.about_subcontent_container}>
             <div>
-              Just like a physical address, this is my digital address, where I
-              hope to share things I like the most, i.e., related to my
-              professional life only.
-            </div>
-            <div>
-              It also acts as a learning/sharing bridge for whoever gets
-              inspired by this.
+              The idea behind creating this website is to have a personal space
+              on the web. It serves the purpose of integrating whatever I learn,
+              such as web services, design implementations, and improving code
+              complexity.
             </div>
             <div className={styles.hidden_message}>
               T<span className={styles.about_bold}>h</span>is{" "}
