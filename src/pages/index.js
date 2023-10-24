@@ -12,8 +12,8 @@ export default function Home() {
             <div className={styles.home_title}>vibgreon</div>
             <div className={styles.home_subcontent_container}>
               <div>
-                Hey, I'm Vivek Venkatesh, your friendly neighborhood&nbsp;
-                <span className={styles.home_bold}>Web Designer</span>
+                Hi, I'm Vivek Venkatesh, your friendly neighborhood&nbsp;
+                <span className={styles.home_bold}>Web Designer</span>.
               </div>
               <div className={styles.home_image_stat_container}>
                 <div className={styles.home_image}></div>
@@ -26,11 +26,11 @@ export default function Home() {
                 </div>
               </div>
               <div className={styles.home_para}>
-                I am somebody who has an interest in modern and digital design.
-                These things spark joy in my life, and because of this, I
-                learned how to design and code.<br /><br /> You are here, for
-                which I am grateful. I encourage you to look around. You
-                might find something interesting.
+                Discovering tech capabilities, I aspire to be a generalist in
+                the field of web-based technology. I love sketching and
+                appreciate art in any form. 🤍
+                <br />
+                <br /> Take a look around! You might find something cool.
               </div>
             </div>
           </div>

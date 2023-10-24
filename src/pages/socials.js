@@ -10,16 +10,11 @@ export default function Social() {
         <div className={styles.socials_container}>
           <div className={styles.socials_head_title}>links</div>
           <div className={styles.socials_content_container}>
-            <div>
-              Humans are social beings, and so am I. Reach out to collaborate, share, or for casual discussions.
-            </div>
+            <div>Feelin' chatty? Here are my social links!</div>
             <div className={styles.socials_link_container}>
               <div id={styles.socials_link_item}>
-                <a
-                  href="https://discord.com/users/396362372429643777/"
-                  target="_blank"
-                >
-                  Discord: <span>vibgreon#0479</span>
+                <a href="https://www.linkedin.com/in/vibgreon/" target="_blank">
+                  LinkedIn
                 </a>
               </div>
               <div id={styles.socials_link_item}>
@@ -28,8 +23,8 @@ export default function Social() {
                 </a>
               </div>
               <div id={styles.socials_link_item}>
-                <a href="https://www.linkedin.com/in/vibgreon/" target="_blank">
-                  LinkedIn
+                <a href="https://linktr.ee/vibgreon" target="_blank">
+                  Linktree
                 </a>
               </div>
             </div>
