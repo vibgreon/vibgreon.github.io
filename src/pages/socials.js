@@ -28,11 +28,6 @@ export default function Social() {
                 </a>
               </div>
               <div id={styles.socials_link_item}>
-                <a href="https://madewithui.com/" target="_blank">
-                  Made With UI
-                </a>
-              </div>
-              <div id={styles.socials_link_item}>
                 <a
                   href="https://www.figma.com/proto/XdevQuchTuQocdwRG2cHsp/vibgreon's-Portfolio?page-id=1%3A10804&node-id=161-11&node-type=frame&viewport=1929%2C148%2C0.07&t=sPORLlhWCVyXwF44-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=161%3A11&show-proto-sidebar=1"
                   target="_blank"
